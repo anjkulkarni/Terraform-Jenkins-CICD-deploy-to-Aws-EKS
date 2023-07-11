@@ -19,7 +19,7 @@ pipeline{
                 }
             }
         }
-        stage("Deploy to EKS") 
+        stage("Deploy to EKS") {
             steps{
                 script{
                     dir('jenkins_pipeline-deploy-eks/kuberenetes') {
@@ -29,5 +29,5 @@ pipeline{
                     }
                 }
             }
-    }
+    }}
 }
