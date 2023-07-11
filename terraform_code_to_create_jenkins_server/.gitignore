@@ -5,5 +5,5 @@
 .terraform.*
 
 # tf state files
-*.tfvars
-*.tfvars.*
+# *.tfvars
+# *.tfvars.*
